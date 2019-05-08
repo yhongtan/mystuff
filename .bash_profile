@@ -1,5 +1,6 @@
 alias ll='ls -alF'
 alias compose='docker-compose'
+alias fuck='sudo $(history -p \!\!)'
 
 export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
